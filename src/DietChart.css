@@ -1,0 +1,24 @@
+.diet-chart-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;  /* Green background */
+    color: white;  /* White text for contrast */
+    border-radius: 10px;  /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow for the container */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .centered-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 5px rgba(34, 197, 94, 0.7);  /* Green shadow border */
+  }
+  
