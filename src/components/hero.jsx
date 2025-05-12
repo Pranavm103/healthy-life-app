@@ -1,12 +1,11 @@
 import React from 'react';
-import heroImg from '../assets/hero.png';
-import './Hero.css'; // Link to external CSS
+import './Hero.css';
 
 const Hero = () => {
   return (
     <section
       className="hero-section"
-      style={{ backgroundImage: `url(${heroImg})` }}
+      style={{ backgroundImage: `url('/assets/hero.png')` }}
     >
       <div className="hero-overlay"></div>
       <div className="hero-text">

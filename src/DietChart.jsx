@@ -5,7 +5,7 @@ const DietChart = () => {
   return (
     <div className="diet-chart-container">
       <div className="image-container">
-        <img src="./src/assets/diet_chart.png" alt="Diet Chart" className="centered-image" />
+        <img src="/assets/diet_chart.png" alt="Diet Chart" className="centered-image" />
       </div>
       <p>Follow this diet chart for a healthier lifestyle!</p>
     </div>
